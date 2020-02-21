@@ -3,7 +3,7 @@ body{
 }
 
 body {
-    font-family: 'Poppins', ;
+    font-family: 'Poppins',sans-serif ;
 }
 
 .top-banner {
@@ -66,4 +66,26 @@ h3 {
 
 .half-width img {
     width: 100%;
+}
+
+.single-experience {
+    box-shadow: 5px 7px 40px gray;
+    height: 80%;
+    
+}
+
+#baby-dev {
+    border-left: 7px solid;
+    border-image-slice: 1;
+    border-image: linear-gradient(180deg,blue,cyan);
+}
+
+#full-stack {
+    border-left: 7px solid;
+    border-image-slice: 1;
+    border-image: linear-gradient(180deg,lightsalmon, tomato);
+}
+
+footer p {
+    text-align: center;
 }
