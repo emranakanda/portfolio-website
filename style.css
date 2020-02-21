@@ -1,5 +1,16 @@
+body{
+    margin: 0;
+}
+
 body {
     font-family: 'Poppins', ;
+}
+
+.top-banner {
+    background-image: url("./images/top-banner.png");
+    background-repeat: no-repeat;
+    height: 500px;
+
 }
 
 h1 {
@@ -8,4 +19,24 @@ h1 {
 
 .high-light {
     color: orange;
+}
+
+.half-width {
+    width: 40% ;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+.link {
+    color: white;
+    font-weight: 700;
+    background: red;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-image: linear-gradient(45deg orange, tomato);
 }
